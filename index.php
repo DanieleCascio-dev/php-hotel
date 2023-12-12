@@ -40,4 +40,12 @@
 
     ];
 
+
+    foreach ($hotels as $hotel){
+      // var_dump($hotel);
+      foreach ($hotel as $key => $value) {
+        echo $key . " " . $value . "<br>";
+      }
+    }
 ?>
+
